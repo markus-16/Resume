@@ -75,11 +75,28 @@ header {
     text-align: center;
 }
 
+.full-name {
+    transition: ease-in-out transform 250ms;
+}
+
+.full-name:hover {
+    transform: scale(1.1);
+}
+
 .desc {
     display: inline-flex;
-    margin-left: 5em;
-    margin-top: 10em;
+    margin-left: 10em;
+    margin-top: 12em;
     align-items: center;
+    transition: ease-in-out transform 250ms;
+}
+
+.desc:hover {
+    transform: scale(1.2);
+}
+
+.info {
+    padding-top: 10em;
 }
 
 .subtitle {
@@ -99,10 +116,15 @@ header {
     font-family: Nunito Sans;
     font-weight: 400;
     font-size: 150%;
+    z-index: 11;
 }
 
 ul {
     list-style: square;
+}
+
+.interests {
+    margin-bottom: 5em;
 }
 
 /* Arrow */
