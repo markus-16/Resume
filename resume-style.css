@@ -33,6 +33,9 @@ header {
     margin:0;
     padding:20px;
     text-align:center;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
 }
 
 .nav li{
@@ -77,6 +80,7 @@ header {
 
 .full-name {
     transition: ease-in-out transform 250ms;
+    z-index: 10;
 }
 
 .full-name:hover {
@@ -123,8 +127,22 @@ ul {
     list-style: square;
 }
 
-.interests {
+.references {
     margin-bottom: 5em;
+}
+
+.ref-list {
+    list-style: none;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out color .2s;
+}
+
+.email:hover {
+    color: #F59E3D;
 }
 
 /* Arrow */
